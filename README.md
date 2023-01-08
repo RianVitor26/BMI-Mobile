@@ -4,12 +4,15 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/RianVitor26/BMI-Mobile?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/RianVitor26/BMI-Mobile?style=for-the-badge)
 
-imagem aqui*
+![Captura de tela 2023-01-08 162342](https://user-images.githubusercontent.com/77061521/211214871-78ba9237-29d7-44f9-a2d4-7143b8c77d5c.png)
+
 
 > Desenvolvi uma calculadora IMC mobile com o intuito de entender e aprender alguns core modules do React-Native e aplicando props para acessibilidade dos componentes
 
 ### Tecnologias
 * React-Native
+* Vector-icons
+* API vibration
 * JavaScript
 * React Hooks
 * Expo
