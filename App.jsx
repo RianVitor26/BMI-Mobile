@@ -68,8 +68,10 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.titles}>BMI Calculator</Text>
       <View>
         <Text
+          style={styles.texts}
           onPress={(event) => handleAcessibleLabels(event)}
           accessibilityLabel="Click me for write your height"
           accessibilityHint="Focus on input to write your heigth"
@@ -80,13 +82,16 @@ export default function App() {
           Height
         </Text>
         <TextInput
+          style={styles.inputs}
           ref={heightInput}
           onChange={(event) => setHeight(event.target.value)}
-          keyBoardType="numeric"
+          keyboardType="numeric"
           placeholder="Ex: 1.80"
           value={height}
+          maxLength="5"
         ></TextInput>
         <Text
+          style={styles.texts}
           onPress={(event) => handleAcessibleLabels(event)}
           accessibilityLabel="Click me for write your weight"
           accessibilityHint="Focus on input to write your weight"
@@ -97,22 +102,25 @@ export default function App() {
           Weight
         </Text>
         <TextInput
+          style={styles.inputs}
           ref={weightInput}
           onChange={(event) => setWeight(event.target.value)}
           keyBoardType="numeric"
           placeholder="Ex: 80.5"
           value={weight}
+          maxLength="7"
         ></TextInput>
         <Button
+          style={styles.button}
           onPress={validateBmiCalculator}
           accessibilityLabel="Calculator your BMI"
           title={textButton}
         />
-        <Text>
+        <Text style={styles.texts}>
           {bmiResultText}
           {bmi}
         </Text>
-        <Text>
+        <Text style={styles.texts}>
           {bmiCategoryText}
           {category}
         </Text>
