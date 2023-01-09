@@ -5,7 +5,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/RianVitor26/BMI-Mobile?style=for-the-badge)
 
 
-![Captura de tela 2023-01-09 003246](https://user-images.githubusercontent.com/77061521/211237016-7129fc4e-5847-4bba-9720-1ee5c34fc5b0.png)
+![Captura de tela 2023-01-09 003739](https://user-images.githubusercontent.com/77061521/211237341-8350bfdb-3e54-40c0-bb82-df95150c3b08.png)
+
 
 
 
