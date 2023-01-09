@@ -5,7 +5,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/RianVitor26/BMI-Mobile?style=for-the-badge)
 
 
-![bmi](https://user-images.githubusercontent.com/77061521/211221187-8a88404d-c715-429a-89de-dbe765ec16fe.png)
+![Captura de tela 2023-01-09 003246](https://user-images.githubusercontent.com/77061521/211237016-7129fc4e-5847-4bba-9720-1ee5c34fc5b0.png)
+
 
 
 > Desenvolvi uma calculadora IMC mobile com o intuito de entender e aprender alguns core modules do React-Native e aplicando props para acessibilidade dos componentes
